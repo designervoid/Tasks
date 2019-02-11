@@ -7,12 +7,8 @@ mpmath.dps = 5
 
 # Use instead of arg for a continuous phase
 def arg2(x):
-    return 1/(1+(abs(z**6-1)))
+    return 1/(1+(abs(z**6-1))) #complex function
 
-#f = lambda z: abs(mpmath.loggamma(z))
-#f = lambda z: arg2(mpmath.exp(z))
-#f = lambda z: abs(mpmath.besselj(3,z))
-#f = lambda z: arg2(mpmath.cos(z))
 f = lambda z: arg2(z)
 fig = pylab.figure()
 ax = Axes3D(fig)

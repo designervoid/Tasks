@@ -1,13 +1,6 @@
 import turtle
 import math
 
-# weight = 640
-# height = 320
-# resolution = weight*height
-# class Center:
-# def Center(self, weight, height):
-# self.weight = weight / 2
-# self.height = height / 2
 v1 = 1
 v2 = 4
 x = 0
